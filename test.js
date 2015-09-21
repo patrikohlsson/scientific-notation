@@ -8,6 +8,6 @@ test('parsing scientific notation', function(t) {
   t.deepEqual(scientific('D2'), [-18, -31]);
   t.deepEqual(scientific('Ebb0'), [-31, -55]);
   t.deepEqual(scientific('gx6'), [13, 24]);
-  t.deepEqual(scientific('fb3'), [-9, -16]);
+  t.deepEqual(scientific('fb3'), [-9, -17]);
   t.end();
 });
